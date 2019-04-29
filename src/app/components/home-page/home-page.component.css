@@ -1,0 +1,26 @@
+.create-list{
+    width: 200px;
+}
+
+.create-list-title {
+    border: 2px solid black;
+    margin:10px;
+    padding: 10px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    border-radius: 3%;
+    white-space:nowrap;
+}
+
+.create-list-editor {
+    margin:10px;
+    padding: 10px;
+    height: 60px;
+    white-space:nowrap;
+}
+
+.create-list-title:hover{
+    font-weight: bold;
+}
